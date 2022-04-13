@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: left; */
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.baslik {
+  width: 100%;
+  font-size: 1.25em;
+  margin: 10px;
+  color: #000;
+  text-align: left;
+  /* margin-bottom: 10px; */
+  /* border-right: 1px solid black; */
+}
+
+.list_item {
+  border-bottom: 1px solid black;
+}
+.item {
+  display: inline-flex;
+  width: 150px;
+  font-size: 1.125em;
+  margin: 15px;
+  color: #000;
+  justify-content: left;
+}
